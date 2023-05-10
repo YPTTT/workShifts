@@ -1,0 +1,549 @@
+@font-face {
+    font-family: 'Segoe UI Local';
+    src: local('Segoe UI Light');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Local';
+    src: local('Segoe UI Semilight');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Local';
+    src: local('Segoe UI');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Local';
+    src: local('Segoe UI Semibold');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Web (West European)';
+    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Local', 'Segoe UI Web (West European)', sans-serif;
+    font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.search-bar {
+    width: calc(100% - 2rem);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #444791;
+    padding: 0 1rem;
+}
+
+.search-bar div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-teams {
+    width: 3%;
+    justify-content: center !important;
+}
+
+.account-info {
+    width: 10%;
+    height: 80%;
+}
+
+
+.search-info {
+    width: 30%;
+    height: 80%;
+}
+
+.search-input {
+    width: 85%;
+    height: 90%;
+    background-color: #E0E0ED;
+    border-radius: 4px;
+    padding-left: 1rem;
+}
+
+.search-input input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding-left: 0.5rem;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.input-search div {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 100%;
+    height: 95vh;
+    display: flex;
+
+}
+
+.menu-list {
+    width: calc(3% + 2rem);
+    height: 100%;
+    background: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-list {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-list:nth-child(7) img {
+    border-top: 1px solid #D1D1D1;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.sub-list:last-child {
+    margin-top: auto;
+}
+
+.sub-list:nth-child(6) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-list:nth-child(6) img {
+    margin-right: 1rem;
+}
+
+.border {
+    width: 3%;
+    height: 80%;
+    background-color: #5B5FC7;
+    border-radius: 20px;
+}
+
+.infomations {
+    height: 95vh;
+    width: 97%;
+}
+
+.header {
+    width: calc(100% - 4rem);
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #F5F5F5;
+}
+
+
+
+.header-name {
+    width: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header div:last-child {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div:last-child div:first-child {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div:last-child div:last-child {
+    height: 100%;
+    width: 43.2%;
+
+}
+
+.add-gr {
+    width: 30%;
+    height: 100%;
+    color: #242424;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+}
+
+.add-shift {
+    width: 80%;
+    height: 100%;
+    padding: 0 0.5rem;
+    color: #FFFFFF;
+    background-color: #5B5FC7;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.font-btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.add-shift p {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header div:last-child div:last-child>p {
+    height: 100%;
+    width: 20%;
+    background-color: #5B5FC7;
+    border-left: 1px solid #C5CBFA;
+    border-radius: 0px 4px 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    max-width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5F5F5;
+    border-top: 1px solid #EBEBEB;
+}
+
+.time div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.time div:first-child {
+    width: 15%;
+}
+
+.search-time {
+    width: 25%;
+    height: 80%;
+    color: #242424;
+}
+
+.search-time div:first-child {
+    width: 17%;
+    padding-left: 15%;
+}
+
+.search-time div:last-child {
+    width: 70%;
+    height: 90%;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    background: #FFFFFF;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.search-time div:last-child img {
+    padding-right: 0.5rem;
+}
+
+.time div:last-child div:last-child input {
+    width: 100%;
+    height: 80%;
+    border: none;
+    margin-left: -1rem;
+}
+
+.font-date {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.date p {
+    font-weight: 400;
+    color: #616161;
+}
+
+.date span {
+    font-weight: 700;
+    color: #242424;
+}
+
+.surFace {
+    max-width: 100%;
+    max-height: 79vh;
+    display: flex;
+    background-color: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.list-person {
+    width: 15%;
+    height: 100%;
+    background: #F0F0F0;
+}
+
+.sub-list-person {
+    width: 100%;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E0E0E0;
+}
+
+.sub-list-person>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.person-info {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.person-info div {
+    padding-left: 1rem;
+}
+
+.person-info img {
+    margin-top: -0.5rem;
+    padding-right: 1rem;
+}
+
+.sub-list-person div span {
+    font-weight: 400;
+    color: #242424;
+}
+
+.font-person {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.sub-list-person div p {
+    font-weight: 400;
+    color: #616161;
+}
+
+.sub-list-person div h1 {
+    font-weight: 700;
+    color: #616161;
+}
+
+.calendar-active {
+    width: 85%;
+    height: 100%;
+}
+
+.calendar-time {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+}
+
+.sub-time:first-child {
+    width: 18%;
+    background: #F0F0F0;
+}
+
+.sub-time {
+    height: 2.25rem;
+    width: calc(100%/7);
+    padding: 0.3rem 0.5rem 1rem 0.5rem;
+    border: 1px solid #E0E0E0;
+    background: #F5F5F5;
+}
+
+.sub-time>div {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub-time span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #616161;
+}
+
+.sub-time:nth-child(3) span {
+    font-weight: 700;
+    color: #424242;
+}
+
+.sub-time:nth-child(3) div p:first-child {
+    font-weight: 600;
+    color: #424242;
+}
+
+.sub-time div {
+    display: flex;
+    justify-content: space-between;
+    color: #616161;
+}
+
+.calendar-component {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.sub-comp {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 4.4rem;
+    border: 1px solid #E0E0E0;
+    color: #424242;
+}
+
+.sub-comp,
+.sub-comp button {
+    font-weight: 400;
+}
+
+.sub-comp .time-line {
+    font-weight: 600;
+}
+
+.sub-comp button {
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 19px;
+    height: 1rem;
+    width: 2.5rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    margin-top: 0.2rem;
+}
+
+.sub-comp>div {
+    height: calc(100% - 0.5rem);
+    padding: 0.5rem 0 0 1rem;
+    border-radius: 2px;
+}
+
+.background1 {
+    background-color: #fafafa;
+}
+
+.background-purple {
+    background: #E8EBFA;
+}
+
+.background-green {
+    background: #E7F2DA;
+}
+
+.background-gray {
+    background: #EBEBEB;
+}
+
+.layout-btn-purple {
+    background: #C5CBFA;
+    color: #5B5FC7;
+}
+
+.layout-btn-green {
+    background: #BDDA9B;
+    color: #237B4B;
+}
+
+.sub-comp-single {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem 0 0.25rem 0 !important;
+}
+
+.sub-comp-single p {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.sub-comp-single p:first-child {
+    border-bottom: 4px solid #fafafa;
+}
